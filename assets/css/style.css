@@ -18,6 +18,8 @@ h2 {
 
 h5 {
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    margin-bottom: 5px;
+    text-align: center;
 }
 
 body {
@@ -28,7 +30,6 @@ body {
 p {
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    padding: 5px;
 }
 
 hr {
@@ -59,10 +60,11 @@ a.button {
 /* displays Name and Links */
 .heading {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    border-style: solid;
     border-color: #cccccc;
+    border-bottom-style: solid;
     background-color: white;
-    margin: -10px -10px 0 -10px;
+
+    margin: -10px -8px 0 -10px;
     height: 80px;
 }
 
@@ -70,7 +72,7 @@ a.button {
 .contact {
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     background-color: white;
-    width: 50%;
+    width: 60%;
     padding: 0px 10px 10px 10px;
     float: left;
     margin: 10px;
@@ -80,7 +82,7 @@ a.button {
 .about {
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     background-color: white;
-    width: 50%;
+    width: 60%;
     float: left;
     margin: 10px;
     padding: 0px 10px 10px 10px;
@@ -89,7 +91,7 @@ a.button {
 .portfolio {
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     background-color: white;
-    width: 50%;
+    width: 60%;
     float: left;
     margin: 10px;
     padding: 0px 10px 10px 10px;
@@ -99,11 +101,11 @@ a.button {
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     background-color: white;
     float: left;
-    width: 40%;
+    width: 270px;
     /*width: 270px;*/
     margin: 10px;
     padding: 0px 10px 10px 10px;
-}
+ }
 
 .subbutton {
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
@@ -149,6 +151,45 @@ a.button {
   width: 140px;
 }
 
+.box {
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.box-1 {
+    position: absolute;
+    top: 310px;
+    left: -4px;
+}
+
+.box-2 {
+    position: absolute;
+    top: 310px;
+    left: 210px;
+}
+
+.box-3 {
+    position: absolute;
+    top: 525px;
+    left: -4px;
+}
+
+.box-4 {
+    position: absolute;
+    top: 525px;
+    left: 210px;
+}
+
+.box-5 {
+    position: absolute;
+    top: 745px;
+    left: -4px;
+}
+
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
@@ -160,4 +201,5 @@ a.button {
 }
 .footer, .page-wrap:after {
   height: 40px; 
+
 }
