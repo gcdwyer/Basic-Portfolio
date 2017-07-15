@@ -37,7 +37,7 @@ hr {
 }
 
 img {
-    padding: 20px;
+    padding: 5px;
     position: relative;
 }
 
@@ -147,4 +147,17 @@ a.button {
   top: 185px;
   background-color: #4aaaa5;
   width: 140px;
+}
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -40px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.footer, .page-wrap:after {
+  height: 40px; 
 }
